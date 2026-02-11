@@ -1,0 +1,19 @@
+A pólódat kifordítva 30 fokon, szárítógép használata nélkül mosd ki, így vigyázva a 100% pamut szövet és a nyomat minőségére. ...
+
+Ez azért fontos, mert a magas hőfokú, száraz környezetben a centrifugális erő mellett megsérülne a minta.
+
+
+
+Legnépszerűbb prémium pólónk, ami garantáltan a kedvenced lesz! ...
+
+Simogatni-valóan puha anyag, rövid ujj és testhez állóbb fazon a stílusos és kényelmes megjelenésért. Ha szereted a laza viseletet, rendelj egy mérettel nagyobbat!
+
+
+Vicces póló , vicces ajándék, szülinapi ajándék! ...
+
+Divatos póló, akár hétköznapi viseletként is megállja a helyét , nagyon jó minőségű anyaga miatt. Az általunk gyártott pólóknál nem kell attól tartanod, hogy kinyúlik az anyag, kifakul, vagy berepedezik a minta. Anyaga 100% Pamut Mérettáblázatot a képek között találsz. 25 féle szín közül választhatsz!
+
+
+Népszerű pólómárka, ami már nálunk is elérhető ...
+
+A hosszított fazon és a vékony, 146 g/m2 anyagvastagság garantálja a kényelmes viseletet. 100% gyűrűs fonású fésült pamutból készül, válltól vállig megerősített és beszegett nyakkivágással. Emellett a dupla tűzésű karkivágás és derékrész biztosítja a kiváló minőséget és formatartást.
