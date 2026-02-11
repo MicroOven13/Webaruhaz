@@ -1,11 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nagy Gergely</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Webáruház">
+  <meta name="keywords" content="Web">
+  <title>Nagy Gergely</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
+
 <body>
-    
+
+<div class="container-fluid p-3">
+  <h1>Webáruház</h1>
+</div>
+
+<nav class="navbar">
+  <div class="container-fluid">
+    <ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link" href="index.html">Főoldal</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="galeria.html">Galéria</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="kapcsolat.html">Kapcsolat</a>
+  </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container-fluid mt-3">
+  <div class="row g-3">
+
+    <div class="col-md-3">
+      <h6 class="fw-bold">Keresési feltételek</h6>
+      <label class="form-label">A termék neve:</label>
+      <input class="form-control" type="text" placeholder="A termék neve">
+
+      <label class="form-label mt-3">Szűrés ár szerint:</label>
+      <input type="range" class="form-range">
+    </div>
+
+    <div class="col-md-7">
+      <div class="row g-3">
+
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-header text-success fw-bold">Retro Gamer férfi póló</div>
+            <div class="card-body">
+              <img src="kepek/polo1.jpg" class="img-fluid border p-2">
+              <div class="mt-2">
+                <span class="border px-2">S</span>
+                <span class="border px-2">M</span>
+                <span class="border px-2">L</span>
+                <span class="border px-2">XL</span>
+                <span class="border px-2">XXL</span>
+              </div>
+              <p class="small mt-2">A pólódat kifordítva 30 fokon mosd ki...</p>
+            </div>
+            <div class="card-footer d-flex justify-content-between">
+              <span class="small">Ár: 6990 Ft</span>
+              <button class="btn btn-success btn-sm px-4">Kosárba</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-header text-success fw-bold">Retro Gamer férfi póló</div>
+            <div class="card-body">
+              <img src="kepek/polo2.jpg" class="img-fluid border p-2">
+              <div class="mt-2">
+                <span class="border px-2">S</span>
+                <span class="border px-2">M</span>
+                <span class="border px-2">L</span>
+                <span class="border px-2">XL</span>
+                <span class="border px-2">XXL</span>
+              </div>
+              <p class="small mt-2">A pólódat kifordítva 30 fokon mosd ki...</p>
+            </div>
+            <div class="card-footer d-flex justify-content-between">
+              <span class="small">Ár: 6990 Ft</span>
+              <button class="btn btn-success btn-sm px-4">Kosárba</button>
+            </div>
+          </div>
+        </div>
+
 </body>
 </html>
