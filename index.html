@@ -1,166 +1,222 @@
 <!DOCTYPE html>
 <html lang="hu">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Webáruház">
-  <meta name="keywords" content="Web">
-  <title>Nagy Gergely Süveges Levente</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nagy Gergely Süveges Bendegúz</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
 
-<body>
-
-<div class="container-fluid p-3">
-  <h1>Webáruház</h1>
-</div>
-
-<nav class="navbar">
-  <div class="container-fluid">
-    <ul class="nav">
-  <li class="nav-item">
-    <a class="nav-link" href="index.html">Főoldal</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="galeria.html">Galéria</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="tablazat.html">Mérettáblázat</a>
-  </li>
-    </ul>
-  </div>
-</nav>
-
-<div class="container-fluid mt-3">
-  <div class="row g-3">
-
-    <div class="col-md-2">
-      <h6 class="fw-bold">Keresési feltételek</h6>
-      <label class="form-label">A termék neve:</label>
-      <input class="form-control" type="text" placeholder="A termék neve">
-
-      <label class="form-label mt-3">Szűrés ár szerint:</label>
-      <input type="range" class="form-range">
+  <body>
+    <div class="container-fluid p-3">
+      <h1>Webáruház - NG</h1>
     </div>
 
-    <div class="col-md-7">
-      <div class="row g-3">
+    <nav class="navbar navbar-expand-sm bg-light">
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Kezdőlap</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galeria.html">Galéria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tablazat.html">Mérettáblázat</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-        <div class="col-md-3">
-          <div class="card h-100">
-            <div class="card-header text-success fw-bold">Retro Gamer férfi póló</div>
-            <div class="card-body">
-              <img src="kepek/polo1.jpg" class="img-fluid border p-2">
-              <div class="mt-2">
-                <span class="border px-2">S</span>
-                <span class="border px-2">M</span>
-                <span class="border px-2">L</span>
-                <span class="border px-2">XL</span>
-                <span class="border px-2">XXL</span>
+    <div class="container-fluid mt-3">
+      <div class="row">
+        <div class="col-sm-3">
+          <h6><b>Keresési feltételek</b></h6>
+
+          <label class="form-label">A termék neve:</label>
+          <input type="text" class="form-control" placeholder="A termék neve" />
+
+          <label class="form-label mt-3">Szűrés ár szerint:</label>
+          <input type="range" class="form-range" />
+        </div>
+
+        <div class="col-sm-7">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card">
+                <div class="card-header text-success">
+                  <b>Retro Gamer férfi póló</b>
+                </div>
+                <div class="card-body">
+                  <img src="kepek/polo1.jpg" class="img-fluid" />
+                  <p class="mt-2">
+                    <span class="border p-1">S</span>
+                    <span class="border p-1">M</span>
+                    <span class="border p-1">L</span>
+                    <span class="border p-1">XL</span>
+                    <span class="border p-1">XXL</span>
+                  </p>
+                  <p class="small">
+                    A pólódat kifordítva 30 fokon, szárítógép használata nélkül
+                    mosd ki, így vigyázva a 100% pamut szövet és a nyomat
+                    minőségére. ... Ez azért fontos, mert a magas hőfokú, száraz
+                    környezetben a centrifugális erő mellett megsérülne a minta.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  Ár: 6990 Ft
+                  <button class="btn btn-success btn-sm float-end">
+                    Kosárba
+                  </button>
+                </div>
               </div>
-              <p class="small mt-2">A pólódat kifordítva 30 fokon mosd ki...</p>
             </div>
-            <div class="card-footer d-flex justify-content-between">
-              <span class="small">Ár: 6990 Ft</span>
-              <button class="btn btn-success btn-sm px-4">Kosárba</button>
+
+            <div class="col-sm-4">
+              <div class="card">
+                <div class="card-header text-success">
+                  <b>Túléltem még egy meetinget</b>
+                </div>
+                <div class="card-body">
+                  <img src="kepek/polo2.jpg" class="img-fluid" />
+                  <p class="mt-2">
+                    <span class="border p-1">S</span>
+                    <span class="border p-1">M</span>
+                    <span class="border p-1">L</span>
+                    <span class="border p-1">XL</span>
+                    <span class="border p-1">XXL</span>
+                  </p>
+                  <p class="small">
+                    Legnépszerűbb prémium pólónk, ami garantáltan a kedvenced
+                    lesz! ... Simogatni-valóan puha anyag, rövid ujj és testhez
+                    állóbb fazon a stílusos és kényelmes megjelenésért. Ha
+                    szereted a laza viseletet, rendelj egy mérettel nagyobbat!
+                  </p>
+                </div>
+                <div class="card-footer">
+                  Ár: 6990 Ft
+                  <button class="btn btn-success btn-sm float-end">
+                    Kosárba
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="card">
+                <div class="card-header text-success">
+                  <b>Az éveim múlásával</b>
+                </div>
+                <div class="card-body">
+                  <img src="kepek/polo3.jpg" class="img-fluid" />
+                  <p class="mt-2">
+                    <span class="border p-1">S</span>
+                    <span class="border p-1">M</span>
+                    <span class="border p-1">L</span>
+                    <span class="border p-1">XL</span>
+                    <span class="border p-1">XXL</span>
+                  </p>
+                  <p class="small">
+                    Vicces póló , vicces ajándék, szülinapi ajándék! ... Divatos
+                    póló, akár hétköznapi viseletként is megállja a helyét ,
+                    nagyon jó minőségű anyaga miatt. Az általunk gyártott
+                    pólóknál nem kell attól tartanod, hogy kinyúlik az anyag,
+                    kifakul, vagy berepedezik a minta. Anyaga 100% Pamut
+                    Mérettáblázatot a képek között találsz. 25 féle szín közül
+                    választhatsz!
+                  </p>
+                </div>
+                <div class="card-footer">
+                  Ár: 4990 Ft
+                  <button class="btn btn-success btn-sm float-end">
+                    Kosárba
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="card">
+                <div class="card-header text-success">
+                  <b>Az éveim múlásával</b>
+                </div>
+                <div class="card-body">
+                  <img src="kepek/polo4.jpg" class="img-fluid" />
+                  <p class="mt-2">
+                    <span class="border p-1">S</span>
+                    <span class="border p-1">M</span>
+                    <span class="border p-1">L</span>
+                    <span class="border p-1">XL</span>
+                    <span class="border p-1">XXL</span>
+                  </p>
+                  <p class="small">
+                    Népszerű pólómárka, ami már nálunk is elérhető ...
+                  </p>
+                </div>
+                <div class="card-footer">
+                  Ár: 4990 Ft
+                  <button class="btn btn-success btn-sm float-end">
+                    Kosárba
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="card">
+                <div class="card-header text-success">
+                  <b>Az éveim múlásával</b>
+                </div>
+                <div class="card-body">
+                  <img src="kepek/polo5.jpg" class="img-fluid" />
+                  <p class="mt-2">
+                    <span class="border p-1">S</span>
+                    <span class="border p-1">M</span>
+                    <span class="border p-1">L</span>
+                    <span class="border p-1">XL</span>
+                    <span class="border p-1">XXL</span>
+                  </p>
+                  <p class="small">
+                    A hosszított fazon és a vékony, 146 g/m2 anyagvastagság
+                    garantálja a kényelmes viseletet. 100% gyűrűs fonású fésült
+                    pamutból készül, válltól vállig megerősített és beszegett
+                    nyakkivágással. Emellett a dupla tűzésű karkivágás és
+                    derékrész biztosítja a kiváló minőséget és formatartást.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  Ár: 4990 Ft
+                  <button class="btn btn-success btn-sm float-end">
+                    Kosárba
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="col-md-3">
-          <div class="card h-100">
-            <div class="card-header text-success fw-bold">Retro Gamer férfi póló</div>
-            <div class="card-body">
-              <img src="kepek/polo2.jpg" class="img-fluid border p-2">
-              <div class="mt-2">
-                <span class="border px-2">S</span>
-                <span class="border px-2">M</span>
-                <span class="border px-2">L</span>
-                <span class="border px-2">XL</span>
-                <span class="border px-2">XXL</span>
-              </div>
-              <p class="small mt-2">A pólódat kifordítva 30 fokon mosd ki...</p>
-            </div>
-            <div class="card-footer d-flex justify-content-between">
-              <span class="small">Ár: 6990 Ft</span>
-              <button class="btn btn-success btn-sm px-4">Kosárba</button>
-            </div>
-          </div>
-        </div>
+        <div class="col-sm-2">
+          <h6><b>Kapcsolódó cikkek 1</b></h6>
 
-        <div class="col-md-3">
-          <div class="card h-100">
-            <div class="card-header text-success fw-bold">Retro Gamer férfi póló</div>
-            <div class="card-body">
-              <img src="kepek/polo3.jpg" class="img-fluid border p-2">
-              <div class="mt-2">
-                <span class="border px-2">S</span>
-                <span class="border px-2">M</span>
-                <span class="border px-2">L</span>
-                <span class="border px-2">XL</span>
-                <span class="border px-2">XXL</span>
-              </div>
-              <p class="small mt-2">A pólódat kifordítva 30 fokon mosd ki...</p>
-            </div>
-            <div class="card-footer d-flex justify-content-between">
-              <span class="small">Ár: 6990 Ft</span>
-              <button class="btn btn-success btn-sm px-4">Kosárba</button>
-            </div>
-          </div>
-        </div>
+          <ul class="list-group">
+            <li class="list-group-item small">
+              1. Lorem ipsum dolor sit amet...
+            </li>
+            <li class="list-group-item small">2. Modi deleniti molestias...</li>
+            <li class="list-group-item small">3. Aspernatur eos vero...</li>
+          </ul>
 
-        <div class="col-md-4">
-          <div class="card h-100">
-            <div class="card-header text-success fw-bold">Retro Gamer férfi póló</div>
-            <div class="card-body">
-              <img src="kepek/polo4.jpg" class="img-fluid border p-2">
-              <div class="mt-2">
-                <span class="border px-2">S</span>
-                <span class="border px-2">M</span>
-                <span class="border px-2">L</span>
-                <span class="border px-2">XL</span>
-                <span class="border px-2">XXL</span>
-              </div>
-              <p class="small mt-2">A pólódat kifordítva 30 fokon mosd ki...</p>
-            </div>
-            <div class="card-footer d-flex justify-content-between">
-              <span class="small">Ár: 6990 Ft</span>
-              <button class="btn btn-success btn-sm px-4">Kosárba</button>
-            </div>
-          </div>
+          <h6 class="mt-3"><b>Kapcsolódó cikkek 1</b></h6>
+          <p class="small">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit...
+          </p>
         </div>
-
-        <div class="col-md-4">
-          <div class="card h-100">
-            <div class="card-header text-success fw-bold">Retro Gamer férfi póló</div>
-            <div class="card-body">
-              <img src="kepek/polo5.jpg" class="img-fluid border p-2">
-              <div class="mt-2">
-                <span class="border px-2">S</span>
-                <span class="border px-2">M</span>
-                <span class="border px-2">L</span>
-                <span class="border px-2">XL</span>
-                <span class="border px-2">XXL</span>
-              </div>
-              <p class="small mt-2">A pólódat kifordítva 30 fokon mosd ki...</p>
-            </div>
-            <div class="card-footer d-flex justify-content-between">
-              <span class="small">Ár: 6990 Ft</span>
-              <button class="btn btn-success btn-sm px-4">Kosárba</button>
-            </div>
-          </div>
-        </div>
-<div class="col-md-2">
-      <h6 class="fw-bold">Kapcsolódó cikkek 1</h6>
-      <ul class="list-group mb-3">
-        <li class="list-group-item small">1. Lorem ipsum dolor sit amet...</li>
-        <li class="list-group-item small">2. Modi deleniti molestias...</li>
-        <li class="list-group-item small">3. Aspernatur eos vero...</li>
-      </ul>
-
-      <h6 class="fw-bold">Kapcsolódó cikkek 1</h6>
-      <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+      </div>
     </div>
-</body>
+    <footer class="row">Nagy Gergely</footer>
+  </body>
 </html>
